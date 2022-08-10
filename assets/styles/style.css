@@ -6,51 +6,63 @@ body {
   line-height: 1.6;
   text-align: center;
 }
-header {
+/* header styles */
+.header-class {
   background-image: url("../images/beachshowcase.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #926239;
   line-height: 1.2;
 }
-h1 {
-  font-size: 45px;
+
+.greetings {
+  font-size: 50px;
   font-weight: bold;
+  padding-top: 40vh;
 }
+
+.greetings-content {
+  margin-bottom: 3vh;
+  font-size: 20px;
+}
+
 .button {
   border: 1px solid;
   border-radius: 10px;
   padding: 10px 20px;
   text-decoration: none;
   color: #926239;
-  margin-top: 20px;
-  
 }
+
 .button:hover {
   color: #f4f4f4;
   background-color: #926239;
 }
-.article-1{
-  color: #f9f9f9;
-}
-.article-2 {
-  background-color: #f4f4f4; 
-}
-section {
-  text-align: left;
-  display: flex;
-  color: #f9f9f9;
-}
-p {
+
+/* main content styles */
+
+.article-1,
+.article-2,
+.content {
   padding: 20px;
 }
-.middle-section {
+
+.article-1,
+.fractional {
+  color: #f9f9f9;
+}
+
+.article-2 {
+  background-color: #f4f4f4;
+}
+
+.center {
   color: #926239;
   background-color: #f9f9f9;
+}
+
+.content {
+  display: inline-block;
+  text-align: left;
+  width: 30%;
 }
